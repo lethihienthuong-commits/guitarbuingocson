@@ -148,11 +148,30 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
+        <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">Mục lục</h3>
+        <ul className="list-disc list-inside space-y-2 text-zinc-600 dark:text-zinc-400">
+            <li><a href="#goc-choi-dan" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Góc chơi đàn</a></li>
+            <li><a href="#hoc-vien" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Học viên thầy Sơn</a></li>
+            <li><a href="#lo-trinh" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Lộ trình học</a></li>
+            <li><a href="#thong-tin-lop-hoc" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Thông tin lớp học</a></li>
+            <li><a href="#giao-trinh" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Bộ giáo trình</a></li>
+            <li><a href="#faq" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Câu hỏi thường gặp</a></li>
+            <li><a href="#cam-nghi" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Cảm nghĩ của học viên</a></li>
+            <li><a href="#lien-he" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Liên hệ</a></li>
+        </ul>
+      </motion.section>
+
+      <motion.section
+        id="goc-choi-dan"
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
         <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">GÓC CHƠI ĐÀN</h3>
         <VideoAlbum />
       </motion.section>
 
       <motion.section
+        id="hoc-vien"
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -161,6 +180,7 @@ export default function Personal() {
       </motion.section>
 
       <motion.section
+        id="lo-trinh"
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -215,6 +235,7 @@ export default function Personal() {
       </motion.section>
 
       <motion.section
+        id="thong-tin-lop-hoc"
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -223,11 +244,7 @@ export default function Personal() {
     
           <div>
             <h4 className="font-bold text-black dark:text-white text-lg">Lớp Trực Tiếp</h4>
-            <p><strong>Địa Điểm:</strong></p>
-            <ul className="list-disc list-inside pl-4">
-              <li>Địa chỉ mới: 89, đường số 3, Cư Xá Đô Thành, phường Bàn Cơ, Tp.HCM</li>
-              <li>Địa chỉ cũ: 89, đường số 3, Cư Xá Đô Thành, phường 4, quận 3, Tp.HCM</li>
-            </ul>
+            <p><strong>Địa Điểm:</strong> 89, đường số 3, phường Bàn Cờ, quận 3, Tp.HCM</p>
           </div>
 
           <div>
@@ -279,6 +296,7 @@ export default function Personal() {
       </motion.section>
 
       <motion.section
+        id="giao-trinh"
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -313,6 +331,7 @@ export default function Personal() {
       </motion.section>
 
       <motion.section
+        id="faq"
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -364,6 +383,7 @@ export default function Personal() {
       </motion.section>
 
       <motion.section
+        id="cam-nghi"
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
@@ -385,6 +405,7 @@ export default function Personal() {
       </motion.section>
 
       <motion.section
+        id="lien-he"
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >

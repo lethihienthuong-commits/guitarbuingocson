@@ -14,13 +14,13 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://nim-fawn.vercel.app/'),
   title: {
-    default: 'Guitar Bùi Ngọc Sơn - Dạy guitar đệm hát uy tín tại TP.HCM',
+    default: 'Guitar Bùi Ngọc Sơn',
     template: '%s | Guitar Bùi Ngọc Sơn',
   },
-  description: 'Lớp học guitar của thầy Bùi Ngọc Sơn tại TP.HCM. Dạy đệm hát cơ bản, nâng cao, solo, classic. Giáo trình chi tiết, phương pháp dễ hiểu, học phí phải chăng.',
+  description: 'Địa chỉ học đàn guitar DỄ HIỂU và NHANH',
   openGraph: {
-    title: 'Guitar Bùi Ngọc Sơn - Dạy guitar đệm hát uy tín tại TP.HCM',
-    description: 'Lớp học guitar của thầy Bùi Ngọc Sơn tại TP.HCM. Dạy đệm hát cơ bản, nâng cao, solo, classic. Giáo trình chi tiết, phương pháp dễ hiểu, học phí phải chăng.',
+    title: 'Guitar Bùi Ngọc Sơn',
+    description: 'Địa chỉ học đàn guitar DỄ HIỂU và NHANH',
     url: 'https://nim-fawn.vercel.app/',
     siteName: 'Guitar Bùi Ngọc Sơn',
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: '/cover.jpg', // Path to your image in the public folder
         width: 1200,
         height: 630,
-        alt: 'Thầy Bùi Ngọc Sơn và lớp học guitar',
+        alt: 'Lớp học guitar của thầy Bùi Ngọc Sơn',
       },
     ],
     locale: 'vi_VN',
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Guitar Bùi Ngọc Sơn - Dạy guitar đệm hát uy tín tại TP.HCM',
-    description: 'Lớp học guitar của thầy Bùi Ngọc Sơn tại TP.HCM. Dạy đệm hát cơ bản, nâng cao, solo, classic. Giáo trình chi tiết, phương pháp dễ hiểu, học phí phải chăng.',
+    title: 'Guitar Bùi Ngọc Sơn',
+    description: 'Địa chỉ học đàn guitar DỄ HIỂU và NHANH',
     images: ['/cover.jpg'], // Path to your image in the public folder
   },
   alternates: {

@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     default: 'Guitar Bùi Ngọc Sơn',
     template: '%s | Guitar Bùi Ngọc Sơn',
   },
-  description: 'Địa chỉ học đàn guitar DỄ HIỂU và NHANH',
+  description: 'Thông tin lớp học đàn guitar cùng thầy Bùi Ngọc Sơn',
   openGraph: {
     title: 'Guitar Bùi Ngọc Sơn',
-    description: 'Địa chỉ học đàn guitar DỄ HIỂU và NHANH',
+    description: 'Thông tin lớp học đàn guitar cùng thầy Bùi Ngọc Sơn',
     url: 'https://nim-fawn.vercel.app/',
     siteName: 'Guitar Bùi Ngọc Sơn',
     images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Guitar Bùi Ngọc Sơn',
-    description: 'Địa chỉ học đàn guitar DỄ HIỂU và NHANH',
+    description: 'Thông tin lớp học đàn guitar cùng thầy Bùi Ngọc Sơn',
     images: ['/cover.jpg'], // Path to your image in the public folder
   },
   alternates: {

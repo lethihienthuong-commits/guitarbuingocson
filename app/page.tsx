@@ -338,7 +338,7 @@ export default function Personal() {
 
           <div>
             <h4 className="font-bold text-black dark:text-white">Thầy Sơn có dạy Guitar cổ điển (Classic) không?</h4>
-            <p className="text-justify"><i>Thầy Sơn tốt nghiệp chuyên ngành Guitar Cổ điển tại Nhạc viện TP.HCM, vì vậy thầy có thể giảng dạy dòng nhạc Classic một cách bài bản. Tuy nhiên, vì Guitar Cổ điển là một thể loại âm nhạc đòi hỏi kỹ thuật cao, yêu cầu người học phải đầu tư nhiều thời gian và công sức hơn so với Guitar đệm hát, nên thầy thường khuyên học viên nên bắt đầu từ đệm hát trước. Khi đã thành thạo khả năng thị tấu – tức là có thể nhìn bản nhạc và chơi ngay được – thì mới nên chuyển sang học Guitar Cổ điển. Cách học này giúp người học nắm vững cả hai dòng nhạc mà vẫn tiết kiệm được thời gian tổng thể.</i></p>
+            <p className="text-justify"><i>Thầy Sơn tốt nghiệp Guitar Cổ điển tại Nhạc viện TP.HCM, nên có thể dạy Classic rất bài bản. Tuy nhiên, vì Guitar Cổ điển đòi hỏi kỹ thuật và thời gian luyện tập cao, thầy thường khuyên học viên nên bắt đầu từ Guitar đệm hát. Khi đã quen thị tấu (đọc bản nhạc và chơi ngay), học viên có thể chuyển sang Guitar Cổ điển. Cách này vừa tiết kiệm thời gian, vừa giúp nắm vững cả đệm hát lẫn Classic.</i></p>
           </div>
 
           <div>
@@ -360,6 +360,27 @@ export default function Personal() {
             <p className="text-justify"><i><a href="https://youtu.be/KByu_xM3b3A?si=uLKl1ƯybyIzvZc9O" target="_blank" rel="noopener noreferrer" className="underline">Video 1</a> và <a href="https://youtu.be/jpsZjmY8GYQ?si=ppZEg_L6zHvLRlGa" target="_blank" rel="noopener noreferrer" className="underline">Video 2</a></i></p>
           </div>
 
+        </div>
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-5 text-lg font-medium">CẢM NGHĨ CỦA HỌC VIÊN</h3>
+        <div className="text-zinc-600 dark:text-zinc-400 space-y-6">
+          <p className="text-justify">
+            Đây là chia sẻ cảm nhận từ học viên anh Quốc Vũ, một người đã học nhiều nơi và cũng tìm nhiều trung tâm.
+          </p>
+          <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+            <iframe
+              src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fguitarbuingocson%2Fvideos%2F994471148704883%2F&show_text=false&width=560"
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none' }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Cảm nhận của học viên"
+            ></iframe>
+          </div>
         </div>
       </motion.section>
 

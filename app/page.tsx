@@ -164,37 +164,63 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Work Experience</h3>
-        <div className="flex flex-col space-y-2">
-          {WORK_EXPERIENCE.map((job) => (
-            <a
-              className="relative overflow-hidden rounded-2xl bg-zinc-300/30 p-[1px] dark:bg-zinc-600/30"
-              href={job.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={job.id}
-            >
-              <Spotlight
-                className="from-zinc-900 via-zinc-800 to-zinc-700 blur-2xl dark:from-zinc-100 dark:via-zinc-200 dark:to-zinc-50"
-                size={64}
-              />
-              <div className="relative h-full w-full rounded-[15px] bg-white p-4 dark:bg-zinc-950">
-                <div className="relative flex w-full flex-row justify-between">
-                  <div>
-                    <h4 className="font-normal dark:text-zinc-100">
-                      {job.title}
-                    </h4>
-                    <p className="text-zinc-500 dark:text-zinc-400">
-                      {job.company}
-                    </p>
-                  </div>
-                  <p className="text-zinc-600 dark:text-zinc-400">
-                    {job.start} - {job.end}
-                  </p>
-                </div>
+        <h3 className="mb-5 text-lg font-medium">THÔNG TIN LỚP HỌC GUITAR VỚI THẦY SƠN</h3>
+        <div className="text-zinc-600 dark:text-zinc-400 space-y-4">
+    
+          <div>
+            <h4 className="font-bold text-black dark:text-white text-lg">Lớp Trực Tiếp</h4>
+            <p><strong>Địa Điểm:</strong></p>
+            <ul className="list-disc list-inside pl-4">
+              <li>Địa chỉ mới: 89, đường số 3, Cư Xá Đô Thành, phường Bàn Cờ, Tp.HCM</li>
+              <li>Địa chỉ cũ: 89, đường số 3, Cư Xá Đô Thành, phường 4, quận 3, Tp.HCM</li>
+            </ul>
+          </div>
+
+          <div>
+              <p><strong>Học phí học guitar với thầy Sơn:</strong> Học từ 1-2 buổi/tuần</p>
+              <ul className="list-disc list-inside pl-4">
+                  <li><strong>Lớp nhóm:</strong> 1.800.000đ/khóa (8 buổi × 60’)</li>
+                  <li><strong>Ưu đãi HSSV:</strong> chỉ 1.500.000đ/khóa (giảm 300k)</li>
+                  <li><strong>Học viên mới đặc biệt:</strong> Học phí “TUỲ HỶ” – đóng CUỐI KHOÁ theo mức độ hài lòng</li>
+                  <li><strong>Lớp 1 kèm 1:</strong> 4.000.000đ/khóa (8 buổi × 45’)</li>
+              </ul>
+              <p className="mt-2">👉 Học phí minh bạch – Chất lượng đảm bảo – Trải nghiệm học tập thú vị và hiệu quả.</p>
+          </div>
+
+          <div>
+              <p><strong>Lịch học:</strong></p>
+              <div className="pl-4">
+                  <p><strong>Sáng:</strong></p>
+                  <ul className="list-disc list-inside pl-4">
+                      <li>T3: 8h30-9h30, 9h30-10h30, 10h30-11h30</li>
+                      <li>T5: 8h30-9h30, 9h30-10h30, 10h30-11h30</li>
+                      <li>T7, CN: 8-9h, 9-10h, 10-11h</li>
+                  </ul>
+                  <p><strong>Chiều và Tối:</strong></p>
+                  <ul className="list-disc list-inside pl-4">
+                      <li>T3,4,5,6: 17-18h, 18-19h, 19-20h</li>
+                      <li>T7, CN: 15-16h, 16-17h, 17-18h, 18-19h</li>
+                  </ul>
               </div>
-            </a>
-          ))}
+          </div>
+
+          <div>
+              <h4 className="font-bold text-black dark:text-white text-lg mt-4">Lớp Online</h4>
+              <ul className="list-disc list-inside pl-4">
+                  <li><strong>Lớp nhóm:</strong> Thông tin khai giảng thông báo trên fanpage</li>
+                  <li><strong>Lớp 1 kèm 1:</strong> 4.000.000đ/khóa (8 buổi × 45’)</li>
+              </ul>
+          </div>
+
+          <div>
+            <h4 className="font-bold text-black dark:text-white text-lg mt-4">Đăng ký</h4>
+            <p>
+              Đăng ký tại fanpage: <a href="https://www.facebook.com/guitarbuingocson/" target="_blank" rel="noopener noreferrer" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">https://www.facebook.com/guitarbuingocson/</a>
+            </p>
+            <p>Hoặc</p>
+            <p>SĐT: 0987301819 (có Zalo- Khuyến Nhạc)</p>
+          </div>
+
         </div>
       </motion.section>
 

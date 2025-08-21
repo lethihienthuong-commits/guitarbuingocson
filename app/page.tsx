@@ -20,6 +20,7 @@ import {
   SOCIAL_LINKS,
 } from './data'
 import VideoAlbum from './VideoAlbum'
+import HocVienThaySon from './HocVienThaySon'
 
 const VARIANTS_CONTAINER = {
   hidden: { opacity: 0 },
@@ -149,6 +150,14 @@ export default function Personal() {
       >
         <h3 className="mb-5 text-lg font-medium">GÓC CHƠI ĐÀN</h3>
         <VideoAlbum />
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-5 text-lg font-medium">HỌC VIÊN THẦY SƠN</h3>
+        <HocVienThaySon />
       </motion.section>
 
       <motion.section

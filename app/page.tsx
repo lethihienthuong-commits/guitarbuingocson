@@ -282,6 +282,40 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
+        <h3 className="mb-5 text-lg font-medium">BỘ GIÁO TRÌNH ĐỆM ĐÀN GUITAR 14+ TẬP</h3>
+        <div className="text-zinc-600 dark:text-zinc-400 space-y-4">
+          <div>
+            <h4 className="font-bold text-black dark:text-white">Danh sách:</h4>
+            <ul className="list-disc list-inside pl-4">
+              <li>Tập 1: Nhập môn</li>
+              <li>Tập 2: Valse</li>
+              <li>Tập 3: Nhịp 2/4-Slow</li>
+              <li>Tập 4: Boston</li>
+              <li>Tập 5: Slow Rock</li>
+              <li>Tập 6: Bollero</li>
+              <li>Tập 7: Disco</li>
+              <li>Tập 8: Nhịp 4/4 - Cách đệm móc đơn</li>
+              <li>Tập 9: Nhịp 2/4 và 4/4 - Cách đệm móc kép</li>
+              <li>Tập 10: Cha Cha Cha</li>
+              <li>Tập 11: Slow Surf</li>
+              <li>Tập 12: Rhumba</li>
+              <li>Tập 13: Tango</li>
+              <li>Tập 14: Pasodoble - Fox</li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>Giá bán:</strong> 150.000đ/cuốn. Mua trọn bộ 14 cuốn: 1.6tr</p>
+            <p>Cuốn 1 đã xuất bản và có đầy đủ video hướng dẫn từng bài.</p>
+            <p>Từ cuốn số 2 trở đi, mỗi cuốn có video hướng dẫn về điệu đó và ít nhất 4-5 bài thực hành mẫu.</p>
+            <p>Sách sẽ được cập nhật bài mới liên tục nên không xuất bản.</p>
+          </div>
+        </div>
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
         <h3 className="mb-5 text-lg font-medium">Connect</h3>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
           Feel free to contact me at{' '}

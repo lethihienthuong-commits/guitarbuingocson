@@ -164,6 +164,60 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
+        <h3 className="mb-5 text-lg font-medium">LỘ TRÌNH HỌC GUITAR CƠ BẢN – 6 GIAI ĐOẠN</h3>
+        <div className="text-zinc-600 dark:text-zinc-400 space-y-4">
+          <div>
+            <h4 className="font-bold text-black dark:text-white">Nhập môn (Tập 1)</h4>
+            <ul className="list-disc list-inside pl-4">
+              <li>Có video hướng dẫn chi tiết.</li>
+              <li>Làm quen đàn qua giáo trình TAB + nốt nhạc (có ghi tên nốt).</li>
+              <li><strong>Kết quả:</strong> đọc nốt thành thạo, chơi nốt ở ngăn 1–3, biết hợp âm cơ bản, tự đệm hát nhịp 2/4, 3/4.</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold text-black dark:text-white">Cơ bản (Tập 2–6)</h4>
+            <ul className="list-disc list-inside pl-4">
+              <li>Học đệm từng điệu cụ thể.</li>
+              <li>Mỗi điệu có giáo trình riêng kèm nhiều bài hát.</li>
+              <li>Sắp xếp từ dễ → khó, học nhẹ nhàng, có động lực.</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold text-black dark:text-white">Phát triển (Tập 7–14)</h4>
+            <ul className="list-disc list-inside pl-4">
+              <li>Học điệu nâng cao.</li>
+              <li>Luyện chuyển tone linh hoạt.</li>
+              <li>Đệm hát cho bản thân và người khác.</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold text-black dark:text-white">Đệm hát nâng cao</h4>
+            <ul className="list-disc list-inside pl-4">
+              <li>Bổ sung nhiều cách đệm cho mỗi điệu.</li>
+              <li>Học intro, câu báo, câu dồn để làm bài hát sinh động.</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold text-black dark:text-white">Hòa tấu & Solo</h4>
+            <ul className="list-disc list-inside pl-4">
+              <li>Học dùng nhạc nền để tự luyện.</li>
+              <li>Hòa tấu với thầy, rèn giữ nhịp chuẩn.</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold text-black dark:text-white">Cổ điển & Bán cổ điển</h4>
+            <ul className="list-disc list-inside pl-4">
+              <li>Cá nhân hóa theo khả năng và mục tiêu riêng.</li>
+              <li>Học theo giáo trình chuẩn (Nhạc viện, Carulli, Sor, Carcassi…).</li>
+            </ul>
+          </div>
+        </div>
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
         <h3 className="mb-5 text-lg font-medium">THÔNG TIN LỚP HỌC GUITAR VỚI THẦY SƠN</h3>
         <div className="text-zinc-600 dark:text-zinc-400 space-y-4">
     
@@ -221,42 +275,6 @@ export default function Personal() {
             <p>SĐT: 0987301819 (có Zalo- Khuyến Nhạc)</p>
           </div>
 
-        </div>
-      </motion.section>
-
-      <motion.section
-        variants={VARIANTS_SECTION}
-        transition={TRANSITION_SECTION}
-      >
-        <h3 className="mb-3 text-lg font-medium">Blog</h3>
-        <div className="flex flex-col space-y-0">
-          <AnimatedBackground
-            enableHover
-            className="h-full w-full rounded-lg bg-zinc-100 dark:bg-zinc-900/80"
-            transition={{
-              type: 'spring',
-              bounce: 0,
-              duration: 0.2,
-            }}
-          >
-            {BLOG_POSTS.map((post) => (
-              <Link
-                key={post.uid}
-                className="-mx-3 rounded-xl px-3 py-3"
-                href={post.link}
-                data-id={post.uid}
-              >
-                <div className="flex flex-col space-y-1">
-                  <h4 className="font-normal dark:text-zinc-100">
-                    {post.title}
-                  </h4>
-                  <p className="text-zinc-500 dark:text-zinc-400">
-                    {post.description}
-                  </p>
-                </div>
-              </Link>
-            ))}
-          </AnimatedBackground>
         </div>
       </motion.section>
 

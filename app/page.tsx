@@ -289,7 +289,7 @@ export default function Personal() {
               Đăng ký tại fanpage: <a href="https://www.facebook.com/guitarbuingocson/" target="_blank" rel="noopener noreferrer" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">https://www.facebook.com/guitarbuingocson/</a>
             </p>
             <p>Hoặc</p>
-            <p>SĐT: 0976246788 hoặc 0987301819 (Khuyến Nhạc)</p>
+            <p>SĐT: <a href="tel:0976246788" className="underline">0976246788</a> hoặc <a href="tel:0987301819" className="underline">0987301819</a> (Khuyến Nhạc)</p>
           </div>
 
         </div>
@@ -415,6 +415,9 @@ export default function Personal() {
           <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>
             {EMAIL}
           </a>
+        </p>
+        <p className="mb-5 text-zinc-600 dark:text-zinc-400">
+          SĐT: <a href="tel:0976246788" className="underline">0976246788</a> (thầy Sơn) <a href="tel:0987301819" className="underline">0987301819</a> (Khuyến Nhạc)
         </p>
         <div className="flex items-center justify-start space-x-3">
           {SOCIAL_LINKS.map((link) => (

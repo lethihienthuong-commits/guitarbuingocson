@@ -137,8 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            Tôi giúp bạn học guitar <b className="font-bold text-black dark:text-white">DỄ HIỂU</b> và <b className="font-bold text-black dark:text-white">NHANH</b> gấp 3 lần tôi ngày xưa
           </p>
         </div>
       </motion.section>

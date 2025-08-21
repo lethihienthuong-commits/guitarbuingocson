@@ -148,7 +148,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">GÓC CHƠI ĐÀN</h3>
+        <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">GÓC CHƠI ĐÀN</h3>
         <VideoAlbum />
       </motion.section>
 
@@ -156,7 +156,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">HỌC VIÊN THẦY SƠN</h3>
+        <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">HỌC VIÊN THẦY SƠN</h3>
         <HocVienThaySon />
       </motion.section>
 
@@ -164,7 +164,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">LỘ TRÌNH HỌC GUITAR CƠ BẢN – 6 GIAI ĐOẠN</h3>
+        <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">LỘ TRÌNH HỌC GUITAR CƠ BẢN – 6 GIAI ĐOẠN</h3>
         <div className="text-zinc-600 dark:text-zinc-400 space-y-4">
           <div>
             <h4 className="font-bold text-black dark:text-white">Nhập môn (Tập 1)</h4>
@@ -218,14 +218,14 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">THÔNG TIN LỚP HỌC GUITAR VỚI THẦY SƠN</h3>
+        <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">THÔNG TIN LỚP HỌC GUITAR VỚI THẦY SƠN</h3>
         <div className="text-zinc-600 dark:text-zinc-400 space-y-4">
     
           <div>
             <h4 className="font-bold text-black dark:text-white text-lg">Lớp Trực Tiếp</h4>
             <p><strong>Địa Điểm:</strong></p>
             <ul className="list-disc list-inside pl-4">
-              <li>Địa chỉ mới: 89, đường số 3, Cư Xá Đô Thành, phường Bàn Cờ, Tp.HCM</li>
+              <li>Địa chỉ mới: 89, đường số 3, Cư Xá Đô Thành, phường Bàn Cơ, Tp.HCM</li>
               <li>Địa chỉ cũ: 89, đường số 3, Cư Xá Đô Thành, phường 4, quận 3, Tp.HCM</li>
             </ul>
           </div>
@@ -272,7 +272,7 @@ export default function Personal() {
               Đăng ký tại fanpage: <a href="https://www.facebook.com/guitarbuingocson/" target="_blank" rel="noopener noreferrer" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">https://www.facebook.com/guitarbuingocson/</a>
             </p>
             <p>Hoặc</p>
-            <p>SĐT: 0987301819 (có Zalo- Khuyến Nhạc)</p>
+            <p>SĐT: 0976246788 hoặc 0987301819 (Khuyến Nhạc)</p>
           </div>
 
         </div>
@@ -282,7 +282,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">BỘ GIÁO TRÌNH ĐỆM ĐÀN GUITAR 14+ TẬP</h3>
+        <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">BỘ GIÁO TRÌNH ĐỆM ĐÀN GUITAR 14+ TẬP</h3>
         <div className="text-zinc-600 dark:text-zinc-400 space-y-4">
           <div>
             <h4 className="font-bold text-black dark:text-white">Danh sách:</h4>
@@ -316,7 +316,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">CÂU HỎI THƯỜNG GẶP</h3>
+        <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">CÂU HỎI THƯỜNG GẶP</h3>
         <div className="text-zinc-600 dark:text-zinc-400 space-y-6">
 
           <div>
@@ -367,7 +367,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">CẢM NGHĨ CỦA HỌC VIÊN</h3>
+        <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">CẢM NGHĨ CỦA HỌC VIÊN</h3>
         <div className="text-zinc-600 dark:text-zinc-400 space-y-6">
           <p className="text-justify">
             Đây là chia sẻ cảm nhận từ học viên anh Quốc Vũ, một người đã học nhiều nơi và cũng tìm nhiều trung tâm.
@@ -388,9 +388,9 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Connect</h3>
+        <h3 className="mb-5 text-lg font-medium">LIÊN HỆ</h3>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
-          Feel free to contact me at{' '}
+          Vui lòng liên hệ với tôi tại{' '}
           <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>
             {EMAIL}
           </a>

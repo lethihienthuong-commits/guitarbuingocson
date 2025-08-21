@@ -139,7 +139,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Tôi giúp bạn học guitar <b className="font-bold text-black dark:text-white">DỄ HIỂU</b> và <b className="font-bold text-black dark:text-white">NHANH</b> gấp 3 lần tôi ngày xưa
+                        Tôi giúp bạn học guitar <b className="font-bold text-red-800 dark:text-red-400">DỄ HIỂU</b> và <b className="font-bold text-red-800 dark:text-red-400">NHANH</b> gấp 3 lần tôi ngày xưa
           </p>
         </div>
       </motion.section>
@@ -235,7 +235,7 @@ export default function Personal() {
               <ul className="list-disc list-inside pl-4">
                   <li><strong>Lớp nhóm:</strong> 1.800.000đ/khóa (8 buổi × 60’)</li>
                   <li><strong>Ưu đãi HSSV:</strong> chỉ 1.500.000đ/khóa (giảm 300k)</li>
-                  <li><strong>Học viên mới đặc biệt:</strong> Học phí “TUỲ HỶ” – đóng CUỐI KHOÁ theo mức độ hài lòng</li>
+                  <li><strong>Học viên mới đặc biệt:</strong> Học phí “<b className="font-bold text-red-800 dark:text-red-400">TUỲ HỶ</b>” – đóng CUỐI KHOÁ theo mức độ hài lòng</li>
                   <li><strong>Lớp 1 kèm 1:</strong> 4.000.000đ/khóa (8 buổi × 45’)</li>
               </ul>
               <p className="mt-2">👉 Học phí minh bạch – Chất lượng đảm bảo – Trải nghiệm học tập thú vị và hiệu quả.</p>
@@ -388,9 +388,9 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">LIÊN HỆ</h3>
+                <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">LIÊN HỆ</h3>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
-          Vui lòng liên hệ với tôi tại{' '}
+          Email:{' '}
           <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>
             {EMAIL}
           </a>

@@ -13,14 +13,36 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://nim-fawn.vercel.app/'),
-  alternates: {
-    canonical: '/'
-  },
   title: {
-    default: 'GUITAR BÙI NGỌC SƠN',
-    template: '%s | GUITAR BÙI NGỌC SƠN'
+    default: 'Guitar Bùi Ngọc Sơn - Dạy guitar đệm hát uy tín tại TP.HCM',
+    template: '%s | Guitar Bùi Ngọc Sơn',
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
+  description: 'Lớp học guitar của thầy Bùi Ngọc Sơn tại TP.HCM. Dạy đệm hát cơ bản, nâng cao, solo, classic. Giáo trình chi tiết, phương pháp dễ hiểu, học phí phải chăng.',
+  openGraph: {
+    title: 'Guitar Bùi Ngọc Sơn - Dạy guitar đệm hát uy tín tại TP.HCM',
+    description: 'Lớp học guitar của thầy Bùi Ngọc Sơn tại TP.HCM. Dạy đệm hát cơ bản, nâng cao, solo, classic. Giáo trình chi tiết, phương pháp dễ hiểu, học phí phải chăng.',
+    url: 'https://nim-fawn.vercel.app/',
+    siteName: 'Guitar Bùi Ngọc Sơn',
+    images: [
+      {
+        url: '/cover.jpg', // Path to your image in the public folder
+        width: 1200,
+        height: 630,
+        alt: 'Thầy Bùi Ngọc Sơn và lớp học guitar',
+      },
+    ],
+    locale: 'vi_VN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Guitar Bùi Ngọc Sơn - Dạy guitar đệm hát uy tín tại TP.HCM',
+    description: 'Lớp học guitar của thầy Bùi Ngọc Sơn tại TP.HCM. Dạy đệm hát cơ bản, nâng cao, solo, classic. Giáo trình chi tiết, phương pháp dễ hiểu, học phí phải chăng.',
+    images: ['/cover.jpg'], // Path to your image in the public folder
+  },
+  alternates: {
+    canonical: '/',
+  },
 };
 
 const geist = Geist({

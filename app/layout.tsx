@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   title: {
-    default: 'Nim - Personal website template',
-    template: '%s | Nim'
+    default: 'GUITAR BÙI NGỌC SƠN',
+    template: '%s | GUITAR BÙI NGỌC SƠN'
   },
   description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
 };

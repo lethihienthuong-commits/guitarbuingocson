@@ -48,9 +48,14 @@ export default function FaqPage() {
             <h4 className="font-bold text-black dark:text-white">Người lớn tuổi học được không?</h4>
             <p className="mb-4 text-justify"><i>Phần lớn học viên tới học với thầy Sơn đều chưa biết gì về đàn.</i></p>
             <p className="mb-4 text-justify"><i>Thầy Sơn đã dạy rất nhiều anh chị lớn tuổi, trên 50,60 tuổi. Đam mê từ trẻ nhưng vì công việc gia đình nên bây giờ mới sắp xếp đi học đàn được.</i></p>
-            <p className="mb-4 text-justify"><i>Đây là video cô Nguyệt học đàn guitar khi đã hơn 50 tuổi. Cô Nguyệt học đều, chăm chỉ, luyện tập đều đặn nên cô học được rất xa, xa hơn rất nhiều một số bạn trẻ nữa: <a href="https://www.facebook.com/share/p/1ZKrfH6NZn/" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
-            <p className="mb-4 text-justify"><i>Đây là clip của cô Phi học đàn khi đã nghỉ hưu: <a href="https://www.facebook.com/share/v/1BLReUtyoX/" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
-            <p className="text-justify"><i>Đây là clip 2 bố con anh Định cùng nhau hoà tấu. Anh Định cũng lớn tuổi rồi mới học đàn: <a href="https://www.youtube.com/watch?v=9UI5VA6S22k&list=PL8_S-ebgMkQHbrKBJYtjxEiTwyrkU3dTv&index=14" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
+            <p className="mb-4 text-justify"><i>Đây là video cô Nguyệt học đàn guitar khi đã hơn 50 tuổi. Cô Nguyệt học đều, chăm chỉ, luyện tập đều đặn nên cô học được rất xa, xa hơn rất nhiều một số bạn trẻ nữa:</i></p>
+            <p className="mb-4 text-justify"><i><a href="https://www.facebook.com/share/p/1ZKrfH6NZn/" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
+            <p className="mb-4 text-justify"><i>Đây là clip của cô Phi học đàn khi đã nghỉ hưu:</i></p>
+            <p className="mb-4 text-justify"><i><a href="https://www.facebook.com/share/v/1BLReUtyoX/" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
+            <p className="text-justify"><i>Đây là clip 2 bố con anh Định cùng nhau hoà tấu. Anh Định cũng lớn tuổi rồi mới học đàn:</i></p>
+            <div className="flex justify-center my-2">
+              <iframe width="360" height="215" src="https://www.youtube.com/embed/9UI5VA6S22k" title="YouTube video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
           </div>
 
           <div>
@@ -67,14 +72,21 @@ export default function FaqPage() {
             <p className="mb-4 text-justify"><i>Thực tế thì rất nhiều người thuận tay trái vẫn học và chơi guitar, piano hay violin như người thuận tay phải – hoàn toàn không cần đổi dây hay thay đổi gì cả. Tôi nghĩ rằng với những nhạc cụ này, cả hai tay đều phải làm việc như nhau, nên không nhất thiết phải đổi dây.</i></p>
             <p className="mb-4 text-justify"><i>Dưới đây là bạn Đỉnh Phong 16 tuổi - thuận tay trái với hát bài Boulevard.</i></p>
             <p className="mb-4 text-justify"><i>Tôi luôn có guitar tay trái trong lớp cho học viên tay trái nhé, bạn nào còn băn khoăn thì hãy đến trải nghiệm ngay thôi!”</i></p>
-            <p className="text-justify"><i>Đây là clip của bạn Đỉnh Phong: <a href="https://www.youtube.com/watch?v=JhMa5ByiD9I&list=PL8_S-ebgMkQHbrKBJYtjxEiTwyrkU3dTv&index=5" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
+            <p className="text-justify"><i>Đây là clip của bạn Đỉnh Phong:</i></p>
+            <div className="flex justify-center my-2">
+              <iframe width="360" height="215" src="https://www.youtube.com/embed/JhMa5ByiD9I" title="YouTube video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
           </div>
 
           <div>
             <h4 className="font-bold text-black dark:text-white">Tôi có cần đem đàn theo không?</h4>
             <p className="mb-4 text-justify"><i>Khuyến Nhạc có chuẩn bị đàn guitar cho học viên nên bạn không cần mang đàn theo khi đi học. Tuy nhiên, bạn cần có 1 cây đàn guitar ở nhà để luyện tập.</i></p>
             <p className="mb-4 text-justify"><i>Nếu bạn chưa có đàn, có thể nhờ thầy Sơn tư vấn hoặc tham khảo video hướng dẫn lựa đàn của thầy Sơn để có thể tự lựa cho bản thân 1 cây đàn phù hợp.</i></p>
-            <p className="text-justify"><i><a href="https://youtu.be/KByu_xM3b3A?si=uLKl1ƯybyIzvZc9O" target="_blank" rel="noopener noreferrer" className="underline">Video 1</a> và <a href="https://youtu.be/jpsZjmY8GYQ?si=ppZEg_L6zHvLRlGa" target="_blank" rel="noopener noreferrer" className="underline">Video 2</a></i></p>
+            <p className="text-justify"><i>Video 1 và Video 2:</i></p>
+            <div className="flex flex-row gap-4 my-2">
+              <iframe width="360" height="215" src="https://www.youtube.com/embed/KByu_xM3b3A" title="YouTube video 1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="360" height="215" src="https://www.youtube.com/embed/jpsZjmY8GYQ" title="YouTube video 2" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
           </div>
 
         </div>

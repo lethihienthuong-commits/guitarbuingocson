@@ -4,6 +4,7 @@ import './globals.css'
 import { Header } from './header'
 import { Footer } from './footer'
 import { ThemeProvider } from 'next-themes'
+import { addStructuredDataToMetadata } from '@/lib/schema'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -11,24 +12,26 @@ export const viewport: Viewport = {
   themeColor: '#ffffff',
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = addStructuredDataToMetadata({
   metadataBase: new URL('https://nim-fawn.vercel.app/'),
   title: {
     default: 'Guitar Bùi Ngọc Sơn',
     template: '%s | Guitar Bùi Ngọc Sơn',
   },
-  description: 'Thông tin lớp học đàn guitar cùng thầy Bùi Ngọc Sơn',
+  description: 'Học đàn guitar cùng thầy Bùi Ngọc Sơn - Lớp học đàn guitar uy tín tại Hà Nội với phương pháp giảng dạy hiệu quả cho mọi lứa tuổi. Từ cơ bản đến nâng cao, fingerstyle, đệm hát và biểu diễn.',
+  keywords: ['học đàn guitar', 'guitar Hà Nội', 'Bùi Ngọc Sơn', 'lớp học guitar', 'khóa học đàn guitar', 'guitar cơ bản', 'guitar nâng cao', 'fingerstyle guitar'],
   openGraph: {
     title: 'Guitar Bùi Ngọc Sơn',
-    description: 'Thông tin lớp học đàn guitar cùng thầy Bùi Ngọc Sơn',
+    description: 'Học đàn guitar cùng thầy Bùi Ngọc Sơn - Lớp học đàn guitar uy tín tại Hà Nội với phương pháp giảng dạy hiệu quả cho mọi lứa tuổi. Từ cơ bản đến nâng cao, fingerstyle, đệm hát và biểu diễn.',
     url: 'https://nim-fawn.vercel.app/',
     siteName: 'Guitar Bùi Ngọc Sơn',
     images: [
       {
-        url: '/new-og-image.jpg', // Path to your image in the public folder
+        url: 'https://nim-fawn.vercel.app/new-og-image.png', // Absolute URL to the image
         width: 1200,
         height: 630,
         alt: 'Lớp học guitar của thầy Bùi Ngọc Sơn',
+        type: 'image/png',
       },
     ],
     locale: 'vi_VN',
@@ -37,13 +40,13 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Guitar Bùi Ngọc Sơn',
-    description: 'Thông tin lớp học đàn guitar cùng thầy Bùi Ngọc Sơn',
-    images: ['/cover.jpg'], // Path to your image in the public folder
+    description: 'Học đàn guitar cùng thầy Bùi Ngọc Sơn - Lớp học đàn guitar uy tín tại Hà Nội với phương pháp giảng dạy hiệu quả cho mọi lứa tuổi.',
+    images: ['https://nim-fawn.vercel.app/new-og-image.png'], // Absolute URL to the image
   },
   alternates: {
     canonical: '/',
   },
-};
+});
 
 const geist = Geist({
   variable: '--font-geist',

@@ -1,4 +1,5 @@
-'use client'
+"use client";
+// ...existing code...
 import { motion } from 'motion/react'
 import { XIcon } from 'lucide-react'
 import { Spotlight } from '@/components/ui/spotlight'
@@ -152,7 +153,8 @@ export default function Personal() {
         <ul className="list-disc list-inside space-y-2 text-zinc-600 dark:text-zinc-400">
             <li><a href="#goc-choi-dan" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Góc chơi đàn</a></li>
             <li><a href="#hoc-vien" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Học viên thầy Sơn</a></li>
-            <li><a href="#lo-trinh" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Lộ trình học</a></li>
+            <li><a href="#ly-do" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">5 LÝ DO NÊN HỌC GUITAR VỚI THẦY SƠN</a></li>
+            <li><a href="#lo-trinh" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Lộ trình học guitar cơ bản – 6 giai đoạn</a></li>
             <li><a href="#thong-tin-lop-hoc" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Thông tin lớp học</a></li>
             <li><a href="#giao-trinh" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Bộ giáo trình</a></li>
             <li><a href="#faq" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">Câu hỏi thường gặp</a></li>
@@ -177,6 +179,16 @@ export default function Personal() {
       >
         <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">HỌC VIÊN THẦY SƠN</h3>
         <HocVienThaySon />
+      <section className="my-10">
+  <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">5 LÝ DO NÊN HỌC GUITAR VỚI THẦY SƠN</h3>
+        <ul className="pl-5 space-y-3 text-zinc-700 dark:text-zinc-300">
+          <li className="flex items-start"><span className="text-green-600 mr-2">✔️</span><span><b>98% là thực hành, không lý thuyết suông:</b> Lý thuyết lồng ghép ngay trong chính những bài luyện, mức độ từ dễ đến khó, giúp việc học đơn giản và thực tế.</span></li>
+          <li className="flex items-start"><span className="text-green-600 mr-2">✔️</span><span><b>Phương pháp dễ hiểu – Lộ trình rõ ràng - Giáo trình chuẩn xịn:</b> Bài học thiết kế dễ hiểu, bạn nhanh chóng chơi được những ca khúc yêu thích và cảm nhận niềm vui từ tiếng đàn. Mỗi bài hát đều được thầy Sơn tự mình lựa chọn và ký âm, đảm bảo chính xác và có bản hoà âm chuẩn đẹp.</span></li>
+          <li className="flex items-start"><span className="text-green-600 mr-2">✔️</span><span><b>Học Đàn cùng Học Hát:</b> Ngoài kỹ năng đàn, thầy Sơn còn chú trọng để bạn hát đúng cao độ và tiết tấu. Giúp năng lực cảm âm tiến bộ rõ rệt.</span></li>
+          <li className="flex items-start"><span className="text-green-600 mr-2">✔️</span><span><b>Học chơi giỏi thiệt:</b> Học viên dù bắt đầu với mục tiêu học giải trí, nhưng nếu sau này muốn phát triển đi vào con đường chuyên nghiệp thì cũng rất thuận lợi vì nền tảng kiến thức và kỹ thuật vững chắc.</span></li>
+          <li className="flex items-start"><span className="text-green-600 mr-2">✔️</span><span><b>Môi trường học thân thiện, đầy đủ hỗ trợ:</b> Lớp nhóm nhỏ tối đa 5 học viên, có video hướng dẫn để tự luyện thêm tại nhà. Đặc biệt, Khuyến Nhạc thường xuyên tổ chức buổi biểu diễn, giúp bạn rèn sự tự tin và thấy rõ sự tiến bộ của mình.</span></li>
+        </ul>
+      </section>
       </motion.section>
 
       <motion.section
@@ -286,7 +298,7 @@ export default function Personal() {
           <div>
             <h4 className="font-bold text-black dark:text-white text-lg mt-4">Đăng ký</h4>
             <p>
-              Đăng ký tại fanpage: <a href="https://www.facebook.com/guitarbuingocson/" target="_blank" rel="noopener noreferrer" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">https://www.facebook.com/guitarbuingocson/</a>
+              Đăng ký tại <a href="https://www.facebook.com/guitarbuingocson/" target="_blank" rel="noopener noreferrer" className="underline hover:text-zinc-800 dark:hover:text-zinc-200">fanpage Facebook</a>
             </p>
             <p>Hoặc</p>
             <p>SĐT: <a href="tel:0976246788" className="underline">0976246788</a> hoặc <a href="tel:0987301819" className="underline">0987301819</a> (Khuyến Nhạc)</p>
@@ -337,6 +349,16 @@ export default function Personal() {
       >
         <h3 className="mb-5 text-lg font-medium text-green-800 dark:text-green-400">CÂU HỎI THƯỜNG GẶP</h3>
         <div className="text-zinc-600 dark:text-zinc-400 space-y-6">
+          <div>
+            <h4 className="font-bold text-black dark:text-white">Học 1 đến 2 buổi mỗi tuần thì có hiệu quả không?</h4>
+            <p className="mb-4 text-justify"><i>Học 1 đến 2 buổi mỗi tuần hoàn toàn có hiệu quả nếu bạn duy trì luyện tập đều đặn ở nhà. Quan trọng nhất là sự kiên trì và thực hành thường xuyên giữa các buổi học. Thầy Sơn sẽ hướng dẫn chi tiết để bạn tự luyện tập đúng cách, giúp tiết kiệm thời gian và đạt kết quả tốt nhất.</i></p>
+          </div>
+          <div>
+            <h4 className="font-bold text-black dark:text-white">Nhà tôi ở hơi xa trung tâm thì có nên đi học trực tiếp không?</h4>
+            <p className="mb-4 text-justify"><i>Nếu bạn thực sự yêu thích guitar và muốn được hướng dẫn trực tiếp, việc đi học tại lớp sẽ giúp bạn tiến bộ nhanh hơn nhờ sự tương tác, sửa lỗi trực tiếp và động lực từ môi trường học tập. Tuy nhiên, nếu việc di chuyển quá bất tiện, bạn có thể cân nhắc học online hoặc kết hợp cả hai hình thức để phù hợp với lịch trình cá nhân.</i></p>
+            <p className="mb-4 text-justify"><i>Hiện tại lớp chưa thật sự gần, nhưng thầy Sơn dạy rất tận tâm, phương pháp dễ hiểu, học viên tiến bộ nhanh và tiết kiệm được nhiều năm học. Quan trọng nhất là kết quả phải xứng đáng với nỗ lực bỏ ra – vì nếu học gần nhà mà không hiệu quả thì cũng chỉ là lãng phí.</i></p>
+            <p className="mb-4 text-justify"><i>Ngoài ra, mỗi tuần chỉ học 1 buổi nên rất dễ sắp xếp, có thể coi như một hoạt động cuối tuần vừa học vừa thư giãn.</i></p>
+          </div>
 
           <div>
             <h4 className="font-bold text-black dark:text-white">Học bao lâu biết đàn?</h4>
@@ -350,9 +372,14 @@ export default function Personal() {
             <h4 className="font-bold text-black dark:text-white">Người lớn tuổi học được không?</h4>
             <p className="mb-4 text-justify"><i>Phần lớn học viên tới học với thầy Sơn đều chưa biết gì về đàn.</i></p>
             <p className="mb-4 text-justify"><i>Thầy Sơn đã dạy rất nhiều anh chị lớn tuổi, trên 50,60 tuổi. Đam mê từ trẻ nhưng vì công việc gia đình nên bây giờ mới sắp xếp đi học đàn được.</i></p>
-            <p className="mb-4 text-justify"><i>Đây là video cô Nguyệt học đàn guitar khi đã hơn 50 tuổi. Cô Nguyệt học đều, chăm chỉ, luyện tập đều đặn nên cô học được rất xa, xa hơn rất nhiều một số bạn trẻ nữa: <a href="https://www.facebook.com/share/p/1ZKrfH6NZn/" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
-            <p className="mb-4 text-justify"><i>Đây là clip của cô Phi học đàn khi đã nghỉ hưu: <a href="https://www.facebook.com/share/v/1BLReUtyoX/" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
-            <p className="text-justify"><i>Đây là clip 2 bố con anh Định cùng nhau hoà tấu. Anh Định cũng lớn tuổi rồi mới học đàn: <a href="https://www.youtube.com/watch?v=9UI5VA6S22k&list=PL8_S-ebgMkQHbrKBJYtjxEiTwyrkU3dTv&index=14" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
+            <p className="mb-4 text-justify"><i>Đây là video cô Nguyệt học đàn guitar khi đã hơn 50 tuổi. Cô Nguyệt học đều, chăm chỉ, luyện tập đều đặn nên cô học được rất xa, xa hơn rất nhiều một số bạn trẻ nữa:</i></p>
+            <p className="mb-4 text-justify"><i><a href="https://www.facebook.com/share/p/1ZKrfH6NZn/" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
+            <p className="mb-4 text-justify"><i>Đây là clip của cô Phi học đàn khi đã nghỉ hưu:</i></p>
+            <p className="mb-4 text-justify"><i><a href="https://www.facebook.com/share/v/1BLReUtyoX/" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
+            <p className="text-justify"><i>Đây là clip 2 bố con anh Định cùng nhau hoà tấu. Anh Định cũng lớn tuổi rồi mới học đàn:</i></p>
+            <div className="flex justify-center my-2">
+              <iframe width="360" height="215" src="https://www.youtube.com/embed/9UI5VA6S22k" title="YouTube video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
           </div>
 
           <div>
@@ -369,14 +396,20 @@ export default function Personal() {
             <p className="mb-4 text-justify"><i>Thực tế thì rất nhiều người thuận tay trái vẫn học và chơi guitar, piano hay violin như người thuận tay phải – hoàn toàn không cần đổi dây hay thay đổi gì cả. Tôi nghĩ rằng với những nhạc cụ này, cả hai tay đều phải làm việc như nhau, nên không nhất thiết phải đổi dây.</i></p>
             <p className="mb-4 text-justify"><i>Dưới đây là bạn Đỉnh Phong 16 tuổi - thuận tay trái với hát bài Boulevard.</i></p>
             <p className="mb-4 text-justify"><i>Tôi luôn có guitar tay trái trong lớp cho học viên tay trái nhé, bạn nào còn băn khoăn thì hãy đến trải nghiệm ngay thôi!”</i></p>
-            <p className="text-justify"><i>Đây là clip của bạn Đỉnh Phong: <a href="https://www.youtube.com/watch?v=JhMa5ByiD9I&list=PL8_S-ebgMkQHbrKBJYtjxEiTwyrkU3dTv&index=5" target="_blank" rel="noopener noreferrer" className="underline">Link video</a></i></p>
+            <p className="text-justify"><i>Đây là clip của bạn Đỉnh Phong:</i></p>
+            <div className="flex justify-center my-2">
+              <iframe width="360" height="215" src="https://www.youtube.com/embed/JhMa5ByiD9I" title="YouTube video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
           </div>
 
           <div>
             <h4 className="font-bold text-black dark:text-white">Tôi có cần đem đàn theo không?</h4>
             <p className="mb-4 text-justify"><i>Khuyến Nhạc có chuẩn bị đàn guitar cho học viên nên bạn không cần mang đàn theo khi đi học. Tuy nhiên, bạn cần có 1 cây đàn guitar ở nhà để luyện tập.</i></p>
             <p className="mb-4 text-justify"><i>Nếu bạn chưa có đàn, có thể nhờ thầy Sơn tư vấn hoặc tham khảo video hướng dẫn lựa đàn của thầy Sơn để có thể tự lựa cho bản thân 1 cây đàn phù hợp.</i></p>
-            <p className="text-justify"><i><a href="https://youtu.be/KByu_xM3b3A?si=uLKl1ƯybyIzvZc9O" target="_blank" rel="noopener noreferrer" className="underline">Video 1</a> và <a href="https://youtu.be/jpsZjmY8GYQ?si=ppZEg_L6zHvLRlGa" target="_blank" rel="noopener noreferrer" className="underline">Video 2</a></i></p>
+            <div className="flex flex-row gap-4 my-2">
+              <iframe width="360" height="215" src="https://www.youtube.com/embed/KByu_xM3b3A" title="YouTube video 1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <iframe width="360" height="215" src="https://www.youtube.com/embed/jpsZjmY8GYQ" title="YouTube video 2" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
           </div>
 
         </div>

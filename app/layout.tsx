@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Guitar Bùi Ngọc Sơn',
     images: [
       {
-        url: '/cover.jpg', // Path to your image in the public folder
+        url: '/new-og-image.jpg', // Path to your image in the public folder
         width: 1200,
         height: 630,
         alt: 'Lớp học guitar của thầy Bùi Ngọc Sơn',

@@ -105,21 +105,17 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    label: 'Github',
-    link: 'https://github.com/ibelick',
+    label: 'Facebook',
+    link: 'https://www.facebook.com/guitarbuingocson/',
   },
   {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    label: 'Youtube',
+    link: 'https://www.youtube.com/@guitarbuingocson',
   },
   {
-    label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
-  },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    label: 'Tiktok',
+    link: 'https://www.tiktok.com/@guitar.buingocson',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'guitarbuingocson@gmail.com'

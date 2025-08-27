@@ -13,14 +13,36 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://nim-fawn.vercel.app/'),
-  alternates: {
-    canonical: '/'
-  },
   title: {
-    default: 'GUITAR BÙI NGỌC SƠN',
-    template: '%s | GUITAR BÙI NGỌC SƠN'
+    default: 'Guitar Bùi Ngọc Sơn',
+    template: '%s | Guitar Bùi Ngọc Sơn',
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
+  description: 'Thông tin lớp học đàn guitar cùng thầy Bùi Ngọc Sơn',
+  openGraph: {
+    title: 'Guitar Bùi Ngọc Sơn',
+    description: 'Thông tin lớp học đàn guitar cùng thầy Bùi Ngọc Sơn',
+    url: 'https://nim-fawn.vercel.app/',
+    siteName: 'Guitar Bùi Ngọc Sơn',
+    images: [
+      {
+        url: '/cover.jpg', // Path to your image in the public folder
+        width: 1200,
+        height: 630,
+        alt: 'Lớp học guitar của thầy Bùi Ngọc Sơn',
+      },
+    ],
+    locale: 'vi_VN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Guitar Bùi Ngọc Sơn',
+    description: 'Thông tin lớp học đàn guitar cùng thầy Bùi Ngọc Sơn',
+    images: ['/cover.jpg'], // Path to your image in the public folder
+  },
+  alternates: {
+    canonical: '/',
+  },
 };
 
 const geist = Geist({
